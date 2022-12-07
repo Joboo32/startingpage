@@ -270,6 +270,10 @@ position: relative;
     padding-bottom: 6%;
   }
 
+#features {
+  padding: 4% 1%;
+}
+
   .areaTitle {
     margin-top: 20px;
   }
