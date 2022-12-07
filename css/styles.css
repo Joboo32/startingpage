@@ -275,7 +275,7 @@ position: relative;
 }
 
   .areaTitle {
-    margin-top: 18px;
+    margin-top: 20px;
   }
 
   .linkName {
@@ -287,12 +287,12 @@ position: relative;
   }
 
   .bar{
-    width:380px;
+    width:340px;
 
   }
 
   .searchbar{
-    width:380px;
+    width:340px;
   }
 
   #subLvl1 {
