@@ -244,7 +244,7 @@ position: relative;
 
 /* Mobile Queries */
 
-@media (min-width: 769px) and (max-width: 1199px) {
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
 
   .col-lg-12 {
     margin-left: auto;
@@ -264,7 +264,7 @@ position: relative;
 
 
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
   .container-fluid {
     padding-bottom: 6%;
