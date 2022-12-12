@@ -186,8 +186,8 @@ position: relative;
 
 }
 
-#div-Hide {
-  display: none;
+.fa-minus {
+  float: right;
 }
 
 #subLvl1 {
@@ -269,6 +269,9 @@ position: relative;
   .container-fluid {
     padding-bottom: 6%;
   }
+#searchImg {
+  width: 70%;
+}
 
 #features {
   padding: 4% 1%;
@@ -287,12 +290,12 @@ position: relative;
   }
 
   .bar{
-    width:340px;
+    width:320px;
 
   }
 
   .searchbar{
-    width:340px;
+    width:320px;
   }
 
   #subLvl1 {

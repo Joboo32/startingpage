@@ -28,10 +28,10 @@
 
       <div class="col-lg-12">
         <div class="logo">
-      <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+      <img id="searchImg" alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
     <div class="bar">
-      <form method="get" action="http://www.google.de/search" target="_blank">
+      <form method="get" action="http://www.google.de/search">
       <input class="searchbar"  name="q" type="text" title="Search" autofocus>
     </div>
     <!-- <div class="btnGoogle">
@@ -91,7 +91,7 @@
       <div>
       <i class="fa-regular fa-folder fa-2x"></i>
       </div>
-      <div class="titleWidth" onclick="handleToggle1()">
+      <div class="titleWidth" onclick="changeIcon(this), handleToggle1()">
         <span class="linkName">Portainer</span><br>
           <span class="linkDescription">Container Management</span>
           <i class="fa-solid fa-plus fa-1x"></i>
@@ -102,7 +102,7 @@
       <div>
       <i class="fa-regular fa-folder fa-2x"></i>
       </div>
-      <div class="titleWidth" onclick="handleToggle2()">
+      <div class="titleWidth" onclick="changeIcon(this), handleToggle2()">
         <span class="linkName">Portainer</span><br>
           <span class="linkDescription">Container Management</span>
           <i class="fa-solid fa-plus fa-1x"></i>
@@ -230,6 +230,16 @@
     <p>© Copyright 21Systems</p>
 
   </footer>
+
+  <script type="text/javascript">
+  function changeIcon(div) {
+var icon = div.querySelector("i");
+icon.classList.toggle('fa-plus');
+icon.classList.toggle('fa-minus');
+}
+
+
+  </script>
 
   <script type="text/javascript">
   const subLvl11 = document.getElementById("subLvl1");
