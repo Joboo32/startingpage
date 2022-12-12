@@ -173,8 +173,10 @@ position: relative;
 }
 
 
-.feature-box:hover{
+@media (hover: hover) {
+  .feature-box:hover{
   transform: scale3d(1.05,1.05,1.05);
+  }
 }
 
 .titleWidth {
